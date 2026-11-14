@@ -1,4 +1,7 @@
 using BlazingPizza;
+using System.Globalization;
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-NG");
+CultureInfo.DefaultThreadCurrentUICulture = new CultureInfo("en-NG");
 
 var builder = WebApplication.CreateBuilder(args);
 
